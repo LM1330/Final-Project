@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <form action="login.php" method="POST">
+        <table width="1920" height="929" border="0">
+            <tr>
+                <td height="60" colspan="4" bgcolor="#ACB4D7">
+                    <h1 align="center">Cyber Security Students ARU</h1>
+                </td>
+            </tr>
+            <tr>
+                <td width="51" rowspan="2">&nbsp;</td>
+                <td height="762" colspan="2">
+                    <table width="1711" height="494" border="0">
+                        <tr>
+                            <td width="674" height="203">&nbsp;</td>
+                            <td width="400" bgcolor="#999999">
+                                <p align="center">Enter your username and password</p>
+                                <h2 align="center"> Username
+                                    <input type="text" name="username" pattern="^[a-zA-Z0-9_]+$" title="Username must only contain letters, numbers, and underscores." required/>
+                                </h2>
+                                <h2 align="center">Password
+                                    <input type="password" name="password" pattern="^[a-zA-Z0-9_!@#$%^&*()+=\-\[\]\\';,./{}|\:<>?~]+$" required/>
+                                </h2>
+                            </td>
+                            <td width="623" colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                                <p align="center">
+                                    <input type="image" src="Images/Login1.png" alt="Submit" width="400" height="150" id="Image2">
+                                </p>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+                <td width="56" rowspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="861" height="90" bgcolor="#666666">&nbsp;</td>
+                <td width="924" bgcolor="#666666">
+                    <table width="884" height="82" border="0">
+                        <tr>
+                            <td colspan="2"><h2 align="center">Contact Details</h2></td>
+                        </tr>
+                        <tr>
+                            <td width="439" height="45"><div align="center">Phone number: 01752 200663</div></td>
+                            <td width="435"><div align="center">Email: <a href="mailto:CyberSecurity@university.ac.uk">CyberSecurity@university.ac.uk</a></div></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

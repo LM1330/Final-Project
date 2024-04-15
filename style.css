@@ -1,0 +1,33 @@
+
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 56px;
+	font-weight: bold;
+	color: #000;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	color: #FFF;
+	background-attachment: fixed;
+	background-image: url(Images/Background.png);
+	background-repeat: no-repeat;
+}
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #003;
+}
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color:#0F3
